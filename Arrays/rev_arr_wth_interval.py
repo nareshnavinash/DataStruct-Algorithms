@@ -1,8 +1,8 @@
 def reverse(arr, count):
     temp = []
     for i in range(int(len(arr)/count) + 1):
+        rev_temp = []
         try:
-            rev_temp = []
             for i in range(count):
                 rev_temp.append(arr[0])
                 arr.remove(arr[0])
